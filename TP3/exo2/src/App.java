@@ -1,3 +1,4 @@
+//exo 2 serie 3
 public class App {
     public static void main(String[] args) throws Exception {
         Voiture bm = new Voiture(310, 2022, 95000.99, 5);
