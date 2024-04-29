@@ -1,4 +1,4 @@
-public class Vehicule {
+public abstract class Vehicule {
     protected int numMatricule;
     protected int anneeModele;
     protected float vitesseMax;
@@ -53,15 +53,9 @@ public class Vehicule {
         System.out.println("La vitesse max de ce vehicule est : " + vitesseMax);
     }
 
-    public void accelerer() {
-        System.out.println("Le vehicule accelere ! ");
-    }
+    public abstract void accelerer();
 
-    public void demarrer() {
-        System.out.println("Le vehicule a demarree");
-    }
+    public abstract void demarrer();
 
-    public void chargeCargaison() {
-        System.out.println("La cargaison est charge dans le vehicule");
-    }
+    public abstract void chargeCargaison();
 }

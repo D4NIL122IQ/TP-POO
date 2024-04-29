@@ -15,13 +15,11 @@ public class Cercle implements Forme {
 
     @Override
     public double surface() {
-
         return Math.PI * Math.pow(this.rayon, 2);
     }
 
     @Override
     public double perimetre() {
-
         return 2 * Math.PI * this.rayon;
     }
 }

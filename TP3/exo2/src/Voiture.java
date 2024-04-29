@@ -30,4 +30,8 @@ public class Voiture extends Vehicule {
                 "Numero d'imatriculation : " + this.numMatricule + " annee : " + this.anneeModele
                         + " nombre de porte : " + this.nbrPorte + " prix : " + this.prixCreation);
     }
+
+    @Override
+    public void chargeCargaison() {
+    }
 }
