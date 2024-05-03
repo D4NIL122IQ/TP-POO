@@ -1,4 +1,4 @@
-//exo 2 serie 3@Overrid   
+//exo 2 serie 3 
 public class App {
     public static void main(String[] args) throws Exception {
         Camion rn = new Camion(110, 2012, 250000, "pneu");
