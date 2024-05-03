@@ -1,4 +1,5 @@
-public class Voiture extends Vehicule {
+//elle devient une classe abstraite cas elle redefinie pas toute les methodes abstraite de sa classe mere 
+public abstract class Voiture extends Vehicule {
     private int nbrPorte;
 
     public Voiture(float vitesse, int annee, double prix, int np) {
@@ -29,9 +30,5 @@ public class Voiture extends Vehicule {
         System.out.println(
                 "Numero d'imatriculation : " + this.numMatricule + " annee : " + this.anneeModele
                         + " nombre de porte : " + this.nbrPorte + " prix : " + this.prixCreation);
-    }
-
-    @Override
-    public void chargeCargaison() {
     }
 }
