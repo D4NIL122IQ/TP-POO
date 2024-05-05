@@ -16,7 +16,7 @@ public class Voiture_Composee extends Vehicule {
     }
 
     void caratéristiqueVéhiculeComposee() {
-        caratéristiqueVéhicule();
+        super.caratéristiqueVéhicule();
         System.out.println("le nombre de porte de ce vehicule : " + nombreDePortes);
     }
 }

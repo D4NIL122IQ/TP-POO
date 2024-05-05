@@ -3,12 +3,17 @@
  */
 public class Vehicule {
 
-    boolean moteur = false;
-    int vitesseMax = 0;
+    boolean moteur;
+    int vitesseMax;
 
     Vehicule(boolean mtr, int vM) {
         this.moteur = mtr;
         this.vitesseMax = vM;
+    }
+
+    Vehicule() {
+        this.moteur = false;
+        this.vitesseMax = 0;
     }
 
     public int getVitesseMax() {
