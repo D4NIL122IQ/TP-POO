@@ -26,11 +26,11 @@ public class Oiseau implements Animal {
 
     @Override
     public void manger() {
-        System.out.println(this.nom + " dort");
+        System.out.println(this.nom + " mange");
     }
 
     @Override
     public void dormir() {
-        System.out.println(this.nom + " dort");
+        System.out.println(this.nom + " dort dans son/sa :" + this.habitat);
     }
 }
